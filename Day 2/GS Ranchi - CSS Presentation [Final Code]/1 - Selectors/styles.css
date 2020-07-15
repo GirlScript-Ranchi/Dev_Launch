@@ -1,0 +1,21 @@
+/* Style the h1 Tag */
+h1 {
+    color: red;
+    font-size: large;
+}
+
+/* Style the h2 tag */
+
+h2 {
+    color: yellow;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the h3 tag */
+
+h3 {
+    color: aquamarine;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

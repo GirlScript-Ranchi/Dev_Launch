@@ -1,0 +1,9 @@
+/* Make a Disc for List Items and Circle for Sublist Items */
+
+li {
+    list-style-type: disc;
+}
+
+li li {
+    list-style-type: circle;
+}

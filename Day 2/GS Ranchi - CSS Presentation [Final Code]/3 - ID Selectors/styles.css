@@ -1,0 +1,19 @@
+/* Style the h1 Tag */
+#first {
+    color: red;
+    font-weight: 800;
+}
+
+/* Style the h2 tag */
+#second {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+/* Style the h3 tag */
+
+#third{
+    color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

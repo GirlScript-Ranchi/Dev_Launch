@@ -1,0 +1,10 @@
+/* Make a Box grabbing the Box Div */
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: blue;
+}
