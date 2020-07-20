@@ -12,4 +12,4 @@ Download link for my resume
 Links to certificates and websites that I have worked on/with
 Progress bars indicating my proficiency in different languages/skills
 Landing page
-Hosted using: GitHub Pages Link: https://oindrila25.github.io/Profile/
+Hosted using: GitHub Pages Link: https://oindrila25.github.io/Dev_Launch/
