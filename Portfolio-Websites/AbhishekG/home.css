@@ -1,0 +1,28 @@
+/* design of body */
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+/* particles and background design */
+#particles-js{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1)), url(kk.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* relativve position of particles */
+.particles-js-canvas-el{
+    position: absolute;  
+}
+/* styling of the text */
+.text{
+     color:grey;
+      font-family: 'Bungee Shade', cursive;
+     word-spacing: 2rem;
+     line-height:normal;
+}
