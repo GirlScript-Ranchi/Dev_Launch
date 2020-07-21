@@ -1,13 +1,13 @@
 ### Title
 MY portfolio websites...
 
-# LInk to my website
+# Link to my website
  https://zahinekbal.github.io/my-portfolio.github.io/
 
  ## Technologies which i used in my portfolio
- HTML
- CSS
- JAVASCRIPT
+- HTML
+ - CSS
+ -JAVASCRIPT
 
 # *******************************
  I used little bit of text animation with the help of css....
