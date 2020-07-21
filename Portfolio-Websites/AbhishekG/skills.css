@@ -1,0 +1,150 @@
+/* font family imported */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* whole body of page */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cardo', serif
+    
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+/* styling to h1 tag elements */
+h1{
+    color:white;
+    font-family: 'Bungee Shade', cursive;
+    margin-bottom: 100px;
+}
+/* header align */
+.header{
+    align-items: center;
+}
+/* body alignments */
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+/*change of color*/
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(x.jpg);
+   back
+ 
+ 
+}
+/* styling to the container */
+.bottom-container{
+    background-color: greenyellow;
+  
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align:center;
+    
+}
+.container
+{
+    position: relative;
+    width:500px;  
+    padding-top: 100px;
+}
+.container h2: 2px;
+{
+    color: #fff;
+    
+}
+
+/* styling of skills */
+.container .skills{
+    position: relative;
+    display: flex;
+    margin: 20px 0;
+    padding: 24px 10px 18px;
+    background: linear-gradient(#616161 0%, #333 10%, #222);
+    border-radius: 8px;
+    overflow: hidden;
+    border:2px solid #000;
+    transition: 0.5s;
+
+}
+.container .skills:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,.1)
+    z-index: 10;
+}
+.container .skills .Name
+{
+    position: relative;
+    width: 110px;
+    text-align: right;
+    color: #fff;
+    margin-top: -2px;
+    text-transform: uppercase;
+    
+}
+.container .skills .Value
+{
+    position: relative;
+    width: 40px;
+    text-align: right;
+    color: #fff;
+    margin-top: -2px;
+    text-transform: uppercase;
+}
+.container .skills .percent 
+{
+    position: relative;
+    width: calc(100% - 150px);
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background: #151515;
+    box-shadow: insert 0 0 10px #000;
+    overflow: hidden;
+
+}
+.container .skills .percent  .progress
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: inset 0 0 2px #000;
+    animation: animate 4s ease-in-out forwards;
+}
+@keyframes animate
+{
+    from {
+        width: 0;
+
+    }
+}
+/* styling to different skills */
+.container .skills:nth-child(2) .percent .progress{
+    background: linear-gradient(45deg, #1fe6ff, #673AB7);
+
+}
+.container .skills:nth-child(3) .percent .progress{
+    background: linear-gradient(45deg, #52ACFF , #FFE32C );
+
+}
+.container .skills:nth-child(4) .percent .progress{
+    background: linear-gradient(45deg, #FFE53B,#FF2525 );
+
+}
+.container .skills:nth-child(5) .percent .progress{
+    background: linear-gradient(45deg, #21D4FD ,#B721FF );
+
+}
+.container .skills:nth-child(2) .percent .progress{
+    background: linear-gradient(45deg, #FEE140,#FA709A);
+
+}
