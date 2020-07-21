@@ -6,8 +6,8 @@ MY portfolio websites...
 
  ## Technologies which i used in my portfolio
 - HTML
- - CSS
- -JAVASCRIPT
+- CSS
+- JAVASCRIPT
 
 # *******************************
  I used little bit of text animation with the help of css....
