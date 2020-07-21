@@ -12,4 +12,4 @@ Key features:
 5. Landing page
 
 
-Hosted using: GitHub Pages Link: https://oindrila25.github.io/Dev_Launch/
+Hosted using: GitHub Pages Link: https://oindrila25.github.io/Profile/
