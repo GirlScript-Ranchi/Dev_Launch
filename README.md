@@ -1,7 +1,7 @@
 # <Dev_Launch>
 Find here in this repository all content for our first event <Dev_Launch/>!
 
-My personal profile
+My personal profile : https://aprajita479.github.io/    
 
 Tech Stack: HTML, CSS, Bootstrap Bootstrap class: Navbar, form, card, etc.   
 Responsive: yes   
@@ -16,4 +16,4 @@ Progress bars indicating my proficiency in differentlanguages/skills
 projects and blog pages    
 My friends also my team mate     
 using javascript added fireworks.       
-Hosted using: GitHub Pages Link:https://aprajita479.github.io/
+Hosted using: GitHub Pages Link :  https://aprajita479.github.io/
