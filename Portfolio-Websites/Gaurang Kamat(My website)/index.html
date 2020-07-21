@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Gaurang Kamat </title>
+	<!-- to make the website more responsive and available on other devices-->
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<!-- I have refered w3school for the development of my portfolio-->
+	<!-- I dont know the exact function but bootstrap helps to make the layout better -->
+	<!-- bootstrap also helps to make the website more responsive -->
+</head>
+
+
+<body>
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- horizontal navigation bar -->
+
+	<ul id="navbar">
+  		<li><a class="active" href="#aboutme">Gaurang Kamat</a></li>
+  		<li><a href="#experience">Experience</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#education">Education</a></li>
+  		<li><a href="#hobbies">Hobbies</a></li>
+  		<li><a href="#contact">Contact</a></li>
+
+	<!-- this enables us to go to the given topics -->
+
+	</ul>
+
+	<!-- About Me -->
+
+	<!-- this will allow us to customize the position of the image and content based on the col-sm -->
+
+	<div class="container-fluid bg-1 text-center">
+		<div class="row">
+			<div class="col-sm-4">
+			   <img src="./me.JPG" class="img-responsive img-circle" style="display:inline; padding:30px"
+			    alt="My Image" width="350" height="350">
+
+    		</div>
+    		<div class="col-sm-8 text-center" >
+				<h1 id="aboutme"> About Me </h1>
+				<p> </p>
+				<p> Hello everyone! I am Gaurang Kamat. I am currently pursuing a bachelor's degree 
+				in electronics and telecommunication engineering. I like to learn new things and try 
+				implementing it. I wanna try having a basic experience in every domain of computer 
+				science and information technology. </p>
+			</div>
+  		</div>
+	</div>
+
+
+	<!-- experience -->
+
+	<div class="container-fluid">
+	<h1 id = "experience"> Experience </h1>
+
+	<div class="row">
+		<div class="col-sm-4">
+			 <h2> Web Development </h2>
+		</div>
+    	<div class="col-sm-8" >
+			<p> I have worked in Trudawn solution as a web developer intern in which I have used wix for 
+			front end development and canva for designing logo</p>
+		</div>
+  	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+			 <h2> Data Science </h2>
+		</div>
+    	<div class="col-sm-8" >
+			<p> I have worked in Cloud Counselage as a data science intern in which I have used python for
+			 data classification and data visualisation</p>
+		</div>
+  	</div>
+	<!-- education -->
+
+	<h1 id = "education"> Education </h1>
+
+	<div class="row">
+		<div class="col-sm-4">
+			 <h2> College </h2>
+		</div>
+    	<div class="col-sm-8" >
+			<p> I am currently doing my engineering in Dwarkadas J Sanghvi College of Engineering. My 
+			CGPA is 8.8 out of 10 (till semester 6).</p>
+		</div>
+  	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+			 <h2> Junior College </h2>
+		</div>
+    	<div class="col-sm-8" >
+			<p> I was studying in Acharya Ambalal V Patel Junior college. My 12th grade percentage is
+			 83.85</p>
+		</div>
+  	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+			 <h2> School </h2>
+		</div>
+    	<div class="col-sm-8" >
+			<p> I was studying VPMS Orion (ICSE) School. My 10th grade percentage is 92.33%</p>
+		</div>
+  	</div>
+
+	<!-- projects -->
+	<h1 id = "projects"> Project </h1>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<img src = "./djstrike2.JPG" style="display:inline; padding:30px; width:100%">
+			<!-- display:inline will use the dimension of the block as per the width of the line-->
+    	</div>
+    	<div class="col-sm-8" >
+			<h2> Arduino Based Self Driving Car With Drowsiness Detection </h2>
+			<p> This project is based on we present an Arduino based self-drive car with added software-based 
+			features like drowsiness detection, voice control along with line following ability and obstacle 
+			detection. The system uses OpenCV-Python to achieve control over the car by voice commands. 
+			The drowsiness detector detects the expression of the driver and sends signals to the Arduino board. 
+			The Arduino switches the car to self- drive mode depending upon the signal received and it also sends a 
+			signal to an app which is linked with it. The app performs the task of sending SOS. It also accounts for 
+			controlling the sensors and motors which are responsible for obstacle detection and route following.<p>
+			<p>(Sadly, we could not complete the project due to Covid-19 situation)<p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<img src = "./djstrike1.JPG" style="display:inline; padding:30px; width:100%">
+			<!-- width: 100% will ensure that the width of the image occupies the entire block irrespective of the height-->
+    	</div>
+    	<div class="col-sm-8" >
+			<h2> Iot based Smart Parking System </h2>
+			<p> This project is an Internet of Things (IoT) based smart parking system which will manage and update a
+	 		database based on availability of parking spaces in different parking slots and display the same to the 
+	 		user. The end user can interact with the system through a mobile application which will let the show a 
+	 		list of nearby parking spaces and availability of space in each. The user can select the parking lot of 
+	 		his choice and book it for himself for some hours which he/she will provide. User bookings get updated 
+	 		on the database. To display vacancy status to the user on his/her application, the current occupancy 
+			will have to get updated on the database in real time. For this, every parking lot will be fit with two 
+	 		IR sensors at a distance of average distance between car wheels which will sense the presence of a car. 
+	 		Output of IR sensors will be sent to the database through IoT. This will then be displayed to the end
+	  		user on his application. The system will also have RFID based authentication at the parking gate. 
+	  		Every user will be provided with a RFID token at entrance which will be scanned at the entrance and 
+	  		exit of the parking lot which will cause the motorised gate to open. In this way, we are proposing a
+	 		system which can be easily implemented with currently available technology in a cost-effective manner.
+	 		Implementation of this system at a larger scale will not only provide a great deal of convenience to 
+	 		the end user. </p>
+		</div>
+	</div>
+
+	<!-- extracurricular -->
+
+	<h1 id = "hobbies"> Hobbies </h1>
+
+	<h2> Art and Social Service </h2> 
+	<p> I used to make a lot of paintings during my school days and I have used that talent for my hard creatives work in NSS (National Service Scheme) when I was in second year. Here are few pictures based on it.
+
+	<!-- Images of my drawings -->
+	<br>
+	<div class="row">
+    	<div class="col-sm-4">
+			<img src="./aladdin.JPG" alt="Aladdin" style="display:inline; padding:20px; width:100%">
+    	</div>
+    	<div class="col-sm-4">
+			<img src="./alice.JPG" alt="Alice" style="display:inline; padding:20px; width: 100%">
+    	</div>
+		<div class="col-sm-4">
+      		<img src="./dragontales.JPG" alt="Dragon_tales" style="display:inline; padding:20px; width: 100%">
+    	</div>
+	</div>
+
+	<div class="row">
+    	<div class="col-sm-4">
+			<img src="./redqueen.JPG" alt="Red Queen" style="display:inline; padding:20px; width: 100%">
+    	</div>
+    	<div class="col-sm-4">
+			<img src="./basilisk1.JPG" alt="Basilisk" style="display:inline; padding:20px; width: 100%">
+    	</div>
+		<div class="col-sm-4">
+      		<img src="./genie.JPG" alt="Genie" style="display:inline; padding:20px; width: 100%">
+    	</div>
+	</div>
+
+
+	<h2> Cooking </h2>
+	<p> Apart from learning new technical skills in this lockdown, I have also learnt how to cook </p>
+
+	<div class="row">
+    	<div class="col-sm-4">
+			<img src="./eggmasala.JPG" alt="egg masala" style="display:inline; padding:20px; width: 100%">
+    	</div>
+    	<div class="col-sm-4">
+			<img src="./friedrice.JPG" alt="fried rice" style="display:inline; padding:20px; width: 100%">
+    	</div>
+		<div class="col-sm-4">
+      		<img src="./white_sauce_penne.jpg" alt="white_sauce_penne" style="display:inline; padding:20px; width: 100%">
+    	</div>
+	</div>
+
+	<div class="row">
+    	<div class="col-sm-4">
+			<img src="./paneermakhani.JPG" alt="Panner Makhani" style="display:inline; padding:20px; width: 100%">
+    	</div>
+    	<div class="col-sm-4">
+			<img src="./whitesaucemac.JPG" alt="white_sauce_mac" style="display:inline; padding:20px; width: 100%">
+    	</div>
+		<div class="col-sm-4">
+      		<img src="./lahorichicken.JPG" alt="lahori_chicken" style="display:inline; padding:20px; width: 100%">
+    	</div>
+	</div>
+
+	</div>
+	<!-- Contact -->
+
+	<footer class="container-fluid bg-4 text-center">
+
+		<h1 id = "contact" style="color: white"> Feel free to contact on the following links! </h1>
+
+		<p><strong> Email : </strong> <a href = "mailto:kamat.gaurang@outlook.com"> kamat.gaurang@outlook.com </a></p>
+		<p><strong> LinkedIn : </strong> <a href = "https://linkedin.com/in/gaurang-kamat-5a6a20191"> www.linkedin.com/in/gaurang-kamat-5a6a20191 </a></p>
+		<p><strong> GitHub : </strong> <a href = "https://github.com/Gauryker1969/"> https://github.com/Gauryker1969/ </a></p>
+	<!-- strong makes the given part of the paragraph bold -->
+
+	</footer>
+
+</body>
+</html>
+
