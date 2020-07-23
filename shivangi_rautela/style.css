@@ -1,0 +1,195 @@
+body{
+    margin: 0px auto;
+    width:100%;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:100;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 2.5em; /* px, %,em,rem,cm*/
+}
+nav ul{
+    float:right;
+}
+nav{
+    background-color: azure;
+    width:100%;
+    height:50px; 
+    position: fixed;
+   font-weight: 400;
+}
+header .navbar ul li a{   
+    line-height: 35px;
+     text-decoration: none;
+     font-size: 15px;
+     color:black;
+     position :relative;
+     font-weight:600;
+     display:block;
+     border-bottom: 5px solid rgb(28, 224, 224);
+  
+}
+header .navbar ul li a.active::before{
+    content:'';   
+    height: 2px;
+     text-decoration: none;
+     font-size: 15px;
+     color: black;
+     width:100%;
+    position: absolute;
+    border-bottom: 5px solid rgb(57, 196, 231);
+  
+}
+.home{
+    min-height:100vh;
+    background-image: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg');
+    text-align:left;
+    font-size: large;
+    display:table;
+    width: 100%;
+    background-size: cover;
+}
+.home h1{
+    margin-top:350px;
+    margin-left: 100px;
+}
+.home h2{
+    margin-top:10px;
+    margin-left: 100px;
+}
+.home img{
+    margin-top:100px;
+    margin-left: 100px;
+    border: 0ch;
+    width:150px;
+    height:200px;
+    float:left;
+
+}
+.home .cv-btn a{
+    margin-left:100px;
+    border-radius: 4px;
+    color:black;
+    border:3px solid aqua;
+    padding :12px 25px;
+    font-size: 25px;
+    font-weight: 300;
+    transition: all .5s ease;
+    background-color: transparent;
+}
+.home .cv-btn a:hover{
+    background-color: blanchedalmond;
+
+}
+.backtotal{
+    background-color: rgb(22, 255, 236);
+}
+
+.about
+{
+    background-image: url('https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');
+    display:table;
+    height:100vh;
+    width:100%;
+    background-size:contain;
+}
+
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width:80%;
+    
+    float:left;
+    padding: 50px;
+}
+
+.about .inner h1{
+    font-size: 32px;;
+    color:rgb(233, 13, 13);
+}
+.about .inner p{
+    font-size: 24px;
+    color:rgb(247, 0, 82);
+    line-height:50px;
+}
+.education{
+    background-color: rgb(219, 208, 46);
+    display:table;
+    height: 100vh;
+    width: 100%;
+}
+.education .inner{
+    padding: 50px;
+}
+.education .inner div, .hobbies .inner ul li,.skills .inner div{
+    width:30%;
+    margin-left:5px;
+    margin-right: 5px;
+    float:left;
+    text-align: center;
+}
+.education h1, .hobbies h1 ,.skills h1 ,.contact h1,.projects h1{
+    font-size: 32px;
+}
+.education .inner div p, .hobbies .inner div ul li, .skills .inner div ul li,.contact .inner div p{
+    font-size: 22px;
+    border-style: double;
+    text-align: center;
+    list-style-type: none;
+}
+.skills ,.contact,.projects{
+    background-color: rgb(158, 228, 37); 
+    display: ruby-text-container;
+    height: 100vh;
+    width: 100%;
+}
+.hobbies .inner ,.contact .inner,.projects .inner{
+    padding:50px;
+    margin:0px;
+}
+.skills{
+    background-image: url('https://images.unsplash.com/photo-1556931499-4674cbc3984c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-repeat: repeat;
+}
+.skills .inner{
+    background-color:rgba(94, 195, 235,0.2);
+    padding: 50px;
+}
+.skills .inner div ul li{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    list-style-type:none;
+}
+.contact .inner {
+    text-align:center;
+}
+.contact{
+    background-image: url('https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+}
+.projects{
+    background-color: rgb(240, 205, 9);
+    background-size: contain;
+    width:100%;
+}
+
+/*responsive desiging
+@media (min-width:320px) and (max-width:724px){
+    .education .inner{
+    background-size:contain;
+    padding-top: 80px;
+    width:100%;
+    }
+    .education .inner div h1{
+        font-size: 16px;
+    }
+    .skills .inner div ul li{
+        font-size: 12px;
+        background-size:contain;
+        background-blend-mode: lighten;
+    }
+    body{
+        width:100%;
+    }
+}*/
