@@ -1,0 +1,150 @@
+.menu{
+    min-width: 200px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 40px;
+}
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+}
+
+img {    
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    }
+#banner-image{   
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+}
+.banner-title{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 5em;
+}
+.banner-subtitle{
+    position: absolute;
+    top: 40%;
+    font-size: 2em;
+    left: 42%;
+}
+.skill{
+    padding-left: 15%;
+}
+#image{
+width: 150px;
+width: 150px;
+margin-right: 50px;
+}
+#skill-text
+{
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.skills-heading{
+    color:black;
+    font-weight: bolder;
+   
+}
+.skills-title{
+    margin-top: 5%;
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color:black;
+    font-size: 2em;
+    margin-left: 45%;
+}
+.portfolio-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.portfolio-title{
+    margin-left: 45%;
+    margin-top: 25px;   
+}
+.portfolio-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#portfolioimg{
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+}
+.portfolio-desc{
+    margin-left: 20px;
+}
+.portfolio-name{
+    font-size: 2em;
+    margin-left: 100px;
+}
+.portfolio-info{
+    font-size: 1em;
+    margin-left: 100px;
+    color: grey;
+}
+
+hr{
+    width: 50%;
+    align-self: center;
+}
+#food{
+    padding: 4%;
+}
+#Medical{
+    padding: 4%;
+}
+#cal{
+    padding: 4%;
+}
+
+.skill-container{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top:auto;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+}
+#image{
+    width: 100px;
+    height: 90px;
+    margin-right: 50px;
+}
+.navbar{
+    background-color: black;
+}
+#aboutme{
+    background-image: linear-gradient(rgb(176, 189, 248), rgb(238, 168, 209)); 
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
